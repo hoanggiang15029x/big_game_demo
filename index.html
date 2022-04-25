@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <div class="game">
+      <div class="result hidden">
+        <h2 class="result_lable" style="margin-top: 100px">
+          🏆 PLAYER 1 WIN 🏆
+        </h2>
+        <h2>POINT: <span class="result_point">0</span></h2>
+        <div style="display: flex; margin-top: 100px">
+          <button class="btn btnOK"><h2>✔ OK</h2></button>
+          <button class="btn btnReset"><h2>🔄 NEW GAME</h2></button>
+        </div>
+      </div>
+      <button class="reset btnReset"><b>🔄 NEW GAME</b></button>
+      <span class="hidden" id="img_roll"></span>
+      <button class="roll"><b>🎲 ROLL DRICE</b></button>
+      <button class="hold"><b>🙌 HOLD</b></button>
+      <div class="player">
+        <div id="player1">
+          <h1>PLAYER 1</h1>
+          <p class="point_player1">0</p>
+          <div class="current">
+            <p class="p_current">CURRENT</p>
+            <p class="point_current1">0</p>
+          </div>
+        </div>
+        <div id="player2">
+          <h1>PLAYER 2</h1>
+          <p class="point_player2">0</p>
+          <div class="current">
+            <p class="p_current">CURRENT</p>
+            <p class="point_current2">0</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/lab9.js"></script>
+  </body>
+</html>
